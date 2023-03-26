@@ -3,7 +3,7 @@ a {
     color: inherit;
 }
 h1 {
-    font-size: 3rem;
+   font-size: 3rem;
 }
 .wrapper {
     max-width: 80vw;
@@ -21,64 +21,47 @@ opacity: 1;
     transform: rotate(0deg);
     transition: 0.5s;
 }
-
 .slait {
     display: flex;
     flex-wrap: wrap;
 }
-
 .slait__row {
 width: 100%;
 display: flex;
 justify-content: space-between;
 }
-
-
 .icon_X {
+    padding: 0 0.5rem;
     transform: rotate(45deg);
     width: 2rem;
     transition: 0.5s;
 }
-
 .slait__text {
     line-height: 1.5;
 }
-
 .slait__icon {
 opacity: 0;
 }
-
 .slait__img {
     display: block;
     margin: 0 auto;
     transform: scale(0%);
     transition: 0.5s;
-    /*display: none;*/
     height: 0;
 }
 .image {
     max-width: 100%;
 }
-
 .item {
-    position: relative;
     padding: 0.3rem 0;
     border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
 }
-
 .item:hover .slait__img {
     transition: 0.5s;
-/*transform: translateY(-100%);*/
-/*opacity: 0;*/
-        /*width: 0;*/
-        transform: scale(100%);
-        display: block;
-    position: relative;
-    top: 0;
+    transform: scale(100%);
+    display: block;
     height: 100%;
 }
-
-
 
 @media (max-width: 820px) {
     .main {
@@ -87,7 +70,6 @@ opacity: 0;
     .icon_X {
         width: 1.5rem;
     }
-
 }
 
 @media (max-width: 320px) {
